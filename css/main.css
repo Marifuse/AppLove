@@ -12,6 +12,7 @@
 }
 
 body {
+  font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
@@ -71,3 +72,281 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+nav{
+  margin-top: 50px;
+  display: inline-block;
+}
+.container{ /*Problema para llamar a la barra estática. Se usó FIXED pero la barra se perdía detrás de las imagenes,
+  por lo tanto, quedó esta función vacía*/
+
+}
+a {
+  margin-left: 50px;
+  text-transform: uppercase; /*Transforma texto en mayuscula*/
+}
+.icon {
+  position: relative;
+  float: right;
+  height: 70px;
+  margin-left: 800;
+  margin-top: -60px;
+}
+#home {
+  position: relative;
+  float: left;
+  height: 554px;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 300px;
+}
+.text {
+  position: relative;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: -480px;
+}
+.text1 {
+  font-size: 25px;
+  margin-left: -30px;
+  /*outline: 1px solid red;*/
+}
+h1 {
+  font-size: 50px;
+  /*outline: 1px solid red;*/
+}
+p {
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+.green {
+  background-color: #01DF74;
+  padding: 15px;
+  color: white;
+  margin-left: -30px;
+}
+.container2 {
+  background-color: #F78181;
+  margin-top: 540px;
+  width: 1300px;
+  height: 740px;
+}
+.text2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-top: 90px;
+  margin-left: -30px;
+  color: white;
+}
+h4 {
+  text-align: center;
+  color: white;
+}
+.one, .two, .three {
+  width: 200px;
+  height: 200px;
+}
+.one {
+  margin-left: 170px;
+  margin-top: 70px;
+}
+.two {
+  margin-left: 550px;
+  margin-top: -470px;
+}
+.three {
+  margin-left: 930px;
+  margin-top: -520px;
+}
+h5, h6 {
+  color: white;
+}
+.text3{
+  text-transform: uppercase;
+  margin-left: 180px;
+}
+.paragraph1{
+  margin-left: 230px;
+  line-height: 0em;
+}
+.usability{
+  margin-left: -5px;
+  color: white;
+  font-size: 11px;
+}
+.text4{
+  text-transform: uppercase;
+  margin-top: -145px;
+  margin-left: 580px;
+}
+.paragraph2{
+  margin-left: 600px;
+  padding-top: -10px;
+  line-height: 0em;
+}
+.text5{
+  text-transform: uppercase;
+  margin-top: -170px;
+  margin-left: 950px;
+}
+.paragraph3{
+  margin-left: 980px;
+  padding-top: -10px;
+  line-height: 0em;
+}
+.text6 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.paragraph4 {
+  text-align: center;
+  line-height: 2em;
+  color: black;
+}
+.four {
+  width: 800px;
+  height: 1000px;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+.five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.five {
+  margin-left: 65px;
+}
+ .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen{
+  margin-top: 100px;
+}
+.product1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: : 80px;
+  margin-left: 140px;
+  margin-bottom: 80px;
+}
+.product2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: : 80px;
+  margin-left: 220px;
+  margin-bottom: 80px;
+}
+.product3 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: : 80px;
+  margin-left: 200px;
+  margin-bottom: 80px;
+}
+.product4 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: : 80px;
+  margin-left: 140px;
+  margin-bottom: 80px;
+}
+.product5 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: : 80px;
+  margin-left: 220px;
+  margin-bottom: 80px;
+}
+.product6 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: : 80px;
+  margin-left: 200px;
+  margin-bottom: 80px;
+}
+.product7 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: : 80px;
+  margin-left: 140px;
+  margin-bottom: 80px;
+}
+.product8 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: : 80px;
+  margin-left: 220px;
+  margin-bottom: 80px;
+}
+.product9 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: : 80px;
+  margin-left: 200px;
+  margin-bottom: 80px;
+}
+.product10 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: : 80px;
+  margin-left: 140px;
+  margin-bottom: 80px;
+}
+.product11 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: : 80px;
+  margin-left: 220px;
+  margin-bottom: 80px;
+}
+.product12 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: : 80px;
+  margin-left: 200px;
+  margin-bottom: 80px;
+}
+.six {
+  margin-left: 50px;
+}
+.seven {
+  margin-left: 50px;
+}
+.eight {
+  margin-left: 65px;
+}
+.nine {
+  margin-left: 50px;
+}
+.ten {
+  margin-left: 50px;
+}
+.eleven {
+  margin-left: 65px;
+}
+.twelve {
+  margin-left: 50px;
+}
+.thirteen {
+  margin-left: 50px;
+}
+.fourteen {
+  margin-left: 65px;
+}
+.fifteen {
+  margin-left: 50px;
+}
+.sixteen {
+  margin-left: 50px;
+}
+.closing {
+  width: 1300px;
+  background-color: #424242;
+  text-align: center;
+  color: white;
+  padding: 30px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
