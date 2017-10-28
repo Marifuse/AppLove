@@ -72,27 +72,27 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
-nav{
-  margin-top: 50px;
+nav {
+  background-color: white;
   display: inline-block;
 }
-.container{ /*Problema para llamar a la barra estática. Se usó FIXED pero la barra se perdía detrás de las imagenes,
+.container {
+  background-color: white;
+  padding-top: 50px;
+  /*position: fixed;*/
+} /*Problema para llamar a la barra estática. Se usó FIXED pero la barra se perdía detrás de las imagenes,
   por lo tanto, quedó esta función vacía*/
-
-}
 a {
   margin-left: 50px;
   text-transform: uppercase; /*Transforma texto en mayuscula*/
 }
 .icon {
-  position: relative;
   float: right;
   height: 70px;
   margin-left: 800;
   margin-top: -60px;
 }
 #home {
-  position: relative;
   float: left;
   height: 554px;
   text-align: center;
@@ -100,7 +100,6 @@ a {
   margin-right: 300px;
 }
 .text {
-  position: relative;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -212,7 +211,6 @@ h5, h6 {
   margin-top: 50px;
 }
 .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
-  position: relative;
   width: 350px;
   height: 300px;
   margin-top: 30px;
